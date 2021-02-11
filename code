@@ -65,6 +65,6 @@ def cover_letter():
     print("For that I want to say that, I might be a good fit for this role.\n","\n")
     print("Looking forward to hear from you !\n","\n","\n")
     print("Thanks and Regards,\n")
-    print(name,"\n","Contact number - ",str(contact_number),"\n","Github - ","https://www.github.com/",github_username)
+    print(name),"\n","Contact number - ",str(contact_number),"\n","Github - ","https://www.github.com/",github_username)
 
 cover_letter()
