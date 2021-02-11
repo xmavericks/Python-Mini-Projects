@@ -66,7 +66,7 @@ def cover_letter():
     print("\nLooking forward to hear from you !\n")
     print("\nThanks and Regards,")
     print(name)
-    print("Contact number: ",str(contact_number))
-    print("Github: ","https://www.github.com/",github_username)
+    print("Contact number: "+str(contact_number))
+    print("Github: "+"https://www.github.com/"+github_username)
 
 cover_letter()
