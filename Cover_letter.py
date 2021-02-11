@@ -1,3 +1,4 @@
+# Taking User Input for basic details
 t_and_t = input("Enter Tools and Technologies on which you have worked: ")
 name = input("Enter your good name: ")
 experience = input("Enter your Work Experience: ")
