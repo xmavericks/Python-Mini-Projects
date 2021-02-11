@@ -11,7 +11,7 @@ experience = input("How many years of experience do you have ? '(Enter only floa
 tools_and_tech = input("What are your tools and technologies expertize, mention all?: ")
 databases = input("What are the databases have you worked on?: ")
 prev_org = input("Enter your Previous Organization name: ")
-site = input("Enter site name where you found this opening: ")
+site = input("Enter site name where you found this job opening opening: ")
 software_role = input("Enter software role, eg - Software Developer, SDET etc: ")
 
 #cover_dict = {}
@@ -65,7 +65,7 @@ def cover_letter():
     
     # Printing output
     print("Dear Hiring Person,\n")
-    print("Thank you so much for making this opportunity available on", site,"\n")
+    print("Thank you so much for making this opportunity available on"+site+"\n")
     print("My name is "+name+" and I am a Software Engineer with more than "+experience+" years of experience as "+software_role+"."+"During my previous employment with "+prev_org+", I have worked on several tools and technologies like - "+tools_and_tech+"with some databases experience of "+databases+"\n")
     print("As I can see that you are looking for a person who has some working experience in"+software_role+"and have some working knowledge of some programming with data structures and algorithms as well as with a good problem solving and analytical knowledge.\n")
     print("For which I want to say that, I might be a good fit for this position.")
