@@ -1,4 +1,4 @@
-languages = input("Enter any Languages: ")
+t_and_t = input("Enter Tools and Technologies on which you have worked: ")
 name = input("Enter your good name: ")
 experience = input("Enter your Work Experience: ")
 databases = input("Enter database names on which you have worked: ")
