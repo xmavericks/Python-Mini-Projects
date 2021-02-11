@@ -1,4 +1,5 @@
 # Taking User Input for basic details
+print("Enter some basic details about yourself below:- ")
 # Basic Details
 name = input("What is your good name?: ")
 contact_number = int(input("\nWhat is your 10 digit mobile number?: "))
