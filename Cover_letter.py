@@ -1,12 +1,12 @@
 # Taking User Input for basic details
-t_and_t = input("Enter Tools and Technologies on which you have worked: ")
 name = input("Enter your good name: ")
+contact_number = int(input("Enter contact number: "))
+t_and_t = input("Enter Tools and Technologies on which you have worked: ")
 experience = input("Enter your Work Experience: ")
 databases = input("Enter database names on which you have worked: ")
 prev_org = input("Enter your Previous Organization name: ")
 site = input("Enter site name where you found this opening: ")
 software_role = input("Enter software role, eg - Software Developer, SDET etc: ")
-contact_number = int(input("Enter contact number: "))
 github_username = input("Enter github username: ")
 
 #cover_dict = {}
