@@ -61,7 +61,7 @@ def cover_letter():
     print("Dear Hiring Person,\n")
     print("Thank you so much for making this opportunity available on", site,"\n")
     print("My name is ",name," and I am a Software Engineer with more than ",experience, " of experience as "+software_role+"."+"During my previous employment with "+prev_org+", I have worked on several tools and technologies like,"+t_and_t+" with some databases experience of, "+databases)
-    print("As I can see that you are looking for a person who has some working experience in"+software_role+"and have some working knowledge of databases like, "+databases)
+    print("As I can see that you are looking for a person who has some working experience in"+software_role+"and have some working knowledge of some programming with data structures and algorithms as well as with a good problem solving and analytical knowledge")
     print("For that I want to say that, I might be a good fit for this role.")
     print("\nLooking forward to hear from you !\n")
     print("\nThanks and Regards,")
