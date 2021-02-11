@@ -1,13 +1,13 @@
 # Taking User Input for basic details
 # Basic Details
 name = input("What is your good name?: ")
-contact_number = int(input("What is your 10 digit mobile number?: "))
-extension = input("What is your extension?: ")
-portfolio_url = input("Enter Portfolio URL")
-github_username = input("Enter github username: ")
-linkedin_url = input("Enter LinkedIn url: ")
+contact_number = int(input("\nWhat is your 10 digit mobile number?: "))
+extension = input("\nWhat is your extension?: \n")
+portfolio_url = input("\nEnter Portfolio URL: \n")
+github_username = input("Enter github username: \n")
+linkedin_url = input("Enter LinkedIn url: \n")
 # Experience related input
-experience = input("How many years of experience do you have ? '(Enter only floating point number)': ")
+experience = input("How many years of experience do you have ?: \n")
 tools_and_tech = input("What are your tools and technologies expertize, mention all?: ")
 databases = input("What are the databases have you worked on?: ")
 prev_org = input("Enter your Previous Organization name: ")
