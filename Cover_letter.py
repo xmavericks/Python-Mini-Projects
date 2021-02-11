@@ -8,7 +8,7 @@ software_role = input("Enter software role, eg - Software Developer, SDET etc: "
 contact_number = int(input("Enter contact number: "))
 github_username = input("Enter github username: ")
 
-cover_dict = {}
+#cover_dict = {}
 
 def cover_letter():
     #inserting name
