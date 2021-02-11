@@ -2,6 +2,7 @@
 # Basic Details
 name = input("Enter your good name: ")
 contact_number = int(input("Enter contact number: "))
+portfolio_url = input("Enter Portfolio URL")
 github_username = input("Enter github username: ")
 linkedIn = input("Enter LinkedIn url: ")
 t_and_t = input("Enter Tools and Technologies on which you have worked: ")
