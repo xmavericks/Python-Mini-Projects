@@ -13,4 +13,13 @@ Current Pattern:
   4 4 4 4 
 5 5 5 5 5
 
-Now, Since we have already completed writing the program for previous pattern, I will still compare both the programs which will give you what is happening in both codes
+Now, Since we have already completed writing the program for previous pattern, I will still compare both the programs which will give you what is happening in both codes. Also
+I will try to show you using -> replacement of spaces with * for clear understanding
+
+Previous pattern                                                        Present Patter
+      1                                                                       1
+    1 2                                                                     2 2
+  1 2 3                                                                   3 3 3
+1 2 3 4                                                                 4 4 4 4
+
+Code -                                                                  Code -
