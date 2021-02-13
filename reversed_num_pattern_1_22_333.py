@@ -12,3 +12,5 @@ Current Pattern:
     3 3 3 -> space_count = rows-3, beacuse this is 3rd row, so we substracted 3
   4 4 4 4 
 5 5 5 5 5
+
+Now, Since we have already completed writing the program for previous pattern, I will still compare both the programs which will give you what is happening in both codes
