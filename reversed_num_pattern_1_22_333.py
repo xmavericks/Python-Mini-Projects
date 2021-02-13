@@ -28,7 +28,18 @@ rows = int(input())                                                     rows = i
 
 for num in range(1,rows+1):                                             for num in range(1, rows+1):
   for k in range(rows, num, -1):                                          for k in range(rows, num, -1):
-    print(" ",end = " ")                                                    print(" ",end=" ")
+    print("*",end = " ")                                                    print("*",end=" ")
   for i in range(1, num+1):                                               for i in range(1, num+1):
     print(i, end = " ")               <---- Difference ---->                print(num, end = " ")
   print("")                                                               print("")
+        
+ 
+
+
+Output Program 1 - Left hand side -----> Printed star (*) in place of spaces for clear visualisation
+* * * 1 
+* * 1 2 
+* 1 2 3 
+1 2 3 4
+
+Output Program 2 - Right hand side
