@@ -23,3 +23,12 @@ Previous pattern                                                        Present 
 1 2 3 4                                                                 4 4 4 4
 
 Code -                                                                  Code -
+
+rows = int(input())                                                     rows = int(input())
+
+for num in range(1,rows+1):                                             for num in range(1, rows+1):
+  for k in range(rows, num, -1):                                          for k in range(rows, num, -1):
+    print(" ",end = " ")                                                    print(" ",end=" ")
+  for i in range(1, num+1):                                               for i in range(1, num+1):
+    print(i, end = " ")               <---- Difference ---->                print(num, end = " ")
+  print("")                                                               print("")
