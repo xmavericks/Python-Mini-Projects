@@ -9,7 +9,7 @@ Note - I am showing you two ways to print the above pattern, please note it can 
 
 Program: 1
 
-rows = int(input())
+rows = int(input()) # It depends on the number of rows you input, I have run the program using input as 5. That is why it has five rows
 
 for num in range(1,rows+1):
   for i in range(1,num+1): # here why I iterate through 1 - (num+1) --> this simply means for(i = 1; i <= num; i++) like we use in C++/JavaScript
