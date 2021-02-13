@@ -18,7 +18,7 @@ for num in range(1,rows+1):
   
 Program: 2
   
-rows = int(input())
+rows = int(input()) # It depends on the number of rows you input, I have run the program using input as 5. That is why it has five rows
 
 for num in range(1,rows+1):
   for i in range(1,num):    # This line is not iterating like earlier, Think???
