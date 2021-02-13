@@ -32,3 +32,11 @@ for num in range(1,rows+1):
     for i in range(1,num+1):
         print(i,end=" ")
     print("")
+
+Output:
+
+* * * * 1  - There were 4 spaces getting printed from above first program
+* * * 1 2 
+* * 1 2 3 
+* 1 2 3 4 
+1 2 3 4 5 - In this line since, this rows occupied maximum values of entries, no spaces / * getting printed
