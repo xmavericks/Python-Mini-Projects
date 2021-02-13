@@ -38,15 +38,17 @@ for num in range(1,rows+1):                                             for num 
 Note : number of rows taken as input was - 5
 
 Output Program 1 - Left hand side -----> Printed star (*) in place of spaces for clear visualisation
-* * * * 1 
-* * * 1 2 
-* * 1 2 3 
+* * * * 1
+* * * 1 2
+* * 1 2 3
 * 1 2 3 4
 1 2 3 4 5
 
 Output Program 2 - Right hand side -----> Printed star (*) in place of spaces for clear visualisation
-* * * * 1 
-* * * 2 2 
-* * 3 3 3 
-* 4 4 4 4 
+* * * * 1
+* * * 2 2
+* * 3 3 3
+* 4 4 4 4
 5 5 5 5 5
+
+# End of this file has reached
