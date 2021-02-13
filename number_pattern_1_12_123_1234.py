@@ -5,7 +5,7 @@ Printing Pattern :
 1 2 3 4  
 1 2 3 4 5
 
-Code: 1
+Program: 1
 
 rows = int(input())
 
@@ -14,7 +14,7 @@ for num in range(1,rows+1):
     print(i, end = " ")
   print("")
   
-Code: 2
+Program: 2
   
 rows = int(input())
 
