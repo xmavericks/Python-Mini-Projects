@@ -20,3 +20,15 @@ for num in range(1,rows+1):
   print("")
   
  Note - The above program can has below cleared explanation, for watching exact number of spaces getting print before actual values
+        Let's try to print * in place of space as in line number 17 for iteration of k
+ 
+Program  - se, and try to understand
+
+rows = int(input())
+
+for num in range(1,rows+1):
+    for k in range(rows,num,-1):
+        print("*",end = " ") # Line number 17 from above is changed and instead of printing space, we are print *. See output pattern generated for clear understanding
+    for i in range(1,num+1):
+        print(i,end=" ")
+    print("")
