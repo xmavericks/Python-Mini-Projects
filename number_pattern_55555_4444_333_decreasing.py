@@ -8,3 +8,9 @@ Pattern to be printed:
 
 Solution Code:
 
+rows = int(input())
+
+for num in range(1,rows+1):
+  for k in range(rows+1, num, -1):
+    print(rows+1-num,end = " ") # Printing the maximum value --> explanation rows = 5, num at this iteration = 1. Max value = 5+1-1 = 5, afterwards as num increases max value will be decreases
+  print("")
