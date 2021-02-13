@@ -5,6 +5,8 @@ Printing Pattern :
 1 2 3 4  
 1 2 3 4 5
 
+Note - I am showing you two ways to print the above pattern, please note it can have more than 2 solutions to print the above pattern
+
 Program: 1
 
 rows = int(input())
