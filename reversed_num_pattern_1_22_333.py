@@ -17,10 +17,11 @@ Now, Since we have already completed writing the program for previous pattern, I
 I will try to show you using -> replacement of spaces with * for clear understanding
 
 Previous pattern                                                        Present Patter
-      1                                                                       1
-    1 2                                                                     2 2
-  1 2 3                                                                   3 3 3
-1 2 3 4                                                                 4 4 4 4
+        1                                                                       1
+      1 2                                                                     2 2
+    1 2 3                                                                   3 3 3
+  1 2 3 4                                                                 4 4 4 4
+1 2 3 4 5                                                               5 5 5 5 5
 
 Code -                                                                  Code -
 
@@ -43,3 +44,8 @@ Output Program 1 - Left hand side -----> Printed star (*) in place of spaces for
 1 2 3 4
 
 Output Program 2 - Right hand side
+* * * * 1 
+* * * 2 2 
+* * 3 3 3 
+* 4 4 4 4 
+5 5 5 5 5
