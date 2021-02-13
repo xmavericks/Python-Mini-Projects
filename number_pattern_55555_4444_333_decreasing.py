@@ -34,4 +34,14 @@ Output for this code will be same as the above:
 3 3 3 
 2 2 
 1
+
+
+Below is the output will expain even better what I meant to say, count number of stars at on each column and match with the number from above pattern. now you can say,
+the max value, which I was talking about the exact highest value, which is represented here by star to provide better visualization
+
+***** ***** ***** ***** ***** ----> 5 5 5 5 5
+**** **** **** ****           ----> 4 4 4 4
+*** *** ***                   ----> 3 3 3
+** **                         ----> 2 2
+*                             ----> 1
 # End of file reached, thanks for visiting
