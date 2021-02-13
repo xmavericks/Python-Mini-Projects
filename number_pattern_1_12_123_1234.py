@@ -15,3 +15,10 @@ for num in range(1,rows+1):
   print("")
   
 Code: 2
+  
+rows = int(input())
+
+for num in range(1,rows+1):
+  for i in range(1,num):    # This line is not iterating like earlier, Think???
+    print(i, end = " ")
+  print(num)                # This line is changed, think why and how?
