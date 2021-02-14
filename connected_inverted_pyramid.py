@@ -8,3 +8,13 @@ Pattern - Connected Inverted pyramind pattern
 
 Solution Code:
 
+rows = int(input())
+
+for num in range(1,rows+1):
+		for k in range(rows+1, num, -1):
+        print(k-1,end = " ")
+    for i in range(num,rows+1):
+        print(i, end = " ")
+    print("")
+		
+#EOF reached
