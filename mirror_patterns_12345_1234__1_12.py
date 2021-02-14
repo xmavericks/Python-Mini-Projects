@@ -20,7 +20,7 @@ for num in range(1,rows+1):
     for k in range(rows+1, num, -1):
         print(rows-k+2,end = " ")
     print("")
-print("")
+print(0)                                # This line is externally added so that pattern can look good
 for num in range(1,rows+1):
     for i in range(1,num+1):
         print(i, end = " ")
