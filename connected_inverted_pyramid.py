@@ -1,4 +1,4 @@
-Pattern - Connected Inverted pyramind pattern
+Pattern - Connected Inverted pyramind pattern 1
 
 5 4 3 2 1 1 2 3 4 5
 5 4 3 2 2 3 4 5
@@ -16,5 +16,15 @@ for num in range(1,rows+1):
     for i in range(num,rows+1):
         print(i, end = " ")
     print("")
-		
+	
+
+Pattern - Connected Inverted Pyramid pattern - 2
+
+1 2 3 4 5 5 4 3 2 1 
+1 2 3 4 4 3 2 1 
+1 2 3 3 2 1 
+1 2 2 1 
+1 1
+
+Code Solution:
 #EOF reached
