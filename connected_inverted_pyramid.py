@@ -32,9 +32,9 @@ rows = int(input())
 
 for num in range(1,rows+1):
     for k in range(rows+1, num, -1):
-        print(rows+2-k,end = " ")
+        print(rows+2-k,end = " ")			# This line is different from above code
     for i in range(num,rows+1):
-        print(rows+1-i, end = " ")
+        print(rows+1-i, end = " ")			# This line is also different
     print("")
 
 
