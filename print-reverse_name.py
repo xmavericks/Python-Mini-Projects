@@ -15,11 +15,11 @@ l_name_reverse = []
 first_name_reversed = ""                      # Declaration of empty string variable fo storing each char from reversed name and append it invertly
 last_name_reversed = ""
 for i in range(len(first_name)):
-    f_name_reverse.append(first_name[i])
+    f_name_reverse.append(first_name[i])      # Performing reversing of letter
 for j in range(len(last_name)):
     l_name_reverse.append(last_name[j])
 
-for k in range(len(f_name_reverse)):
+for k in range(len(f_name_reverse)):          # storing in empty string
     first_name_reversed += f_name_reverse[k]
 for l in range(len(l_name_reverse)):
     last_name_reversed += l_name_reverse[l]
