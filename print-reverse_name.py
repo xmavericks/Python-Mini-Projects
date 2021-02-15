@@ -10,9 +10,9 @@ Code solution: Solution 1 using 4 for loops for every basic iteration
   
 first_name = input("Enter your first name: ") # Taking input of first name
 last_name = input("Enter your last name: ")   # Taking input of last name
-f_name_reverse = []
+f_name_reverse = []                           # Declaring list variable to store reversed names respectively
 l_name_reverse = []
-first_name_reversed = ""
+first_name_reversed = ""                      # Declaration of empty string variable fo storing each char from reversed name and append it invertly
 last_name_reversed = ""
 for i in range(len(first_name)):
     f_name_reverse.append(first_name[i])
