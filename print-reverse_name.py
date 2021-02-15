@@ -1,4 +1,4 @@
-? Print first and last name in reverse order with a space between them
+Print first and last name in reverse order with a space between them - >
 
 example - 
 first_name = amod
@@ -34,3 +34,8 @@ Enter your last name: kumar
 First name was:  amod
 Last name was:  kumar
 Reversed name is: kumar amod
+  
+
+Solution code 2 using only 2 for loops:
+
+
