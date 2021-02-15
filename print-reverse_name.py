@@ -6,10 +6,10 @@ last_name = kumar
 
 output should be = kumar amod
 
-Code solution:
+Code solution: Solution 1 using 4 for loops for every basic iteration
   
 first_name = input("Enter your first name: ") # Taking input of first name
-last_name = input("Enter your last name: ")
+last_name = input("Enter your last name: ")   # Taking input of last name
 f_name_reverse = []
 l_name_reverse = []
 first_name_reversed = ""
