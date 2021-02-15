@@ -6,7 +6,7 @@ output should be - 1 2 3 4 5 6 7 8 9 10
 
 Soultion Code:
   
-n = int(input())
+n = int(input("Enter limit upto which you want to print numbers: "))
 counter = 1
 
 # Function responsible for printing Odd numbers
