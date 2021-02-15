@@ -38,10 +38,36 @@ Reversed name is: kumar amod
   
 Solution 2 using 2 for loops for every basic iteration and reversing each character of each name --> example amod kumar --> ramuk doma
 
-Expected output:
-first_name = amod
-last_name = kumar
+# Expected output:
+# first_name = amod
+# last_name = kumar
 
-Output --> ramuk doma
+# Output --> ramuk doma
+
+Code:
+
+first_name = input("Enter your first name: ")
+last_name = input("Enter your last name: ")
+first_name_reversed = ""
+last_name_reversed = ""
 
 
+for i in range(len(first_name)-1,-1,-1):
+    first_name_reversed += first_name[i]
+for j in range(len(last_name)-1,-1,-1):
+    last_name_reversed += last_name[j]
+    
+
+print("First name was: ",first_name)
+
+print("Last name was: ",last_name)
+
+print("Reversed name is: "+last_name_reversed+" "+first_name_reversed)
+
+#Expected output matches exact output:
+
+Enter your first name: amod
+Enter your last name: kumar
+First name was:  amod
+Last name was:  kumar
+Reversed name is: ramuk doma
