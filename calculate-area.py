@@ -3,10 +3,10 @@
 Program code :
   
 radius = int(input("Enter radius: "))
-side_square = int(input("Enter side value for square: "))
-side1_rec, side2_rec = int(input("Enter first side value of reactangle: ")), int(input("Enter first side value of reactangle: "))
+side_square = int(input("Enter side value of square: "))
+side1_rec, side2_rec = int(input("Enter first side value of reactangle: ")), int(input("Enter second side value of reactangle: "))
 
-print("Given integers for multiple options for calculating areas are below: ")
+print("")
 print("Radius of circle is: "+str(radius), end = "\n")
 print("Side of square is: "+str(side_square), end = "\n")
 print("Both sides of rectangle are: "+str(side1_rec)+" and "+ str(side2_rec),end = "\n")
@@ -19,9 +19,9 @@ print("Area of rectangle is == length * breadth -> side1_rec * side2_rec \n ===>
 Output of the above code is:
   
 Enter radius: 7
-Enter side value for square: 12
+Enter side value of square: 12
 Enter first side value of reactangle: 10
-Enter first side value of reactangle: 16
+Enter second side value of reactangle: 16
 Given integers for multiple options for calculating areas are below: 
 Radius of circle is: 7
 Side of square is: 12
