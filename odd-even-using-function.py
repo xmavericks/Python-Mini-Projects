@@ -28,3 +28,6 @@ for i in range(1, n+1): # Initial iteration range(1,n+10)
     else:
         Even(i)
         print(i, end = " ") # Space separated Even numbers
+
+
+# EOD reached
