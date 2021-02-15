@@ -1,4 +1,4 @@
-# Print odd / even number upto a limit n with space separated integer using recursion
+# Print odd / even number upto a limit n with space separated integer using two separate function - A logic for building threads inter comunication channel
 ex - 
 n = 10
 output should be - 1 2 3 4 5 6 7 8 9 10
