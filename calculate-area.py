@@ -2,9 +2,10 @@
 
 Program code :
   
-radius = int(input())
-side_square = int(input())
-side1_rec, side2_rec = int(input()), int(input())
+radius = int(input("Enter radius: "))
+side_square = int(input("Enter side value for square: "))
+side1_rec, side2_rec = int(input("Enter first side value of reactangle: ")), int(input("Enter first side value of reactangle: "))
+
 print("Given integers for multiple options for calculating areas are below: ")
 print("Radius of circle is: "+str(radius), end = "\n")
 print("Side of square is: "+str(side_square), end = "\n")
