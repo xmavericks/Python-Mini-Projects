@@ -6,7 +6,7 @@ last_name = kumar
 
 output should be = kumar amod
 
-Code solution: Solution 1 using 4 for loops for every basic iteration
+Code solution: Solution 1 using 4 for loops for every basic iteration and reversing only name -> example amod kumar --> kumar amod
   
 first_name = input("Enter your first name: ") # Taking input of first name
 last_name = input("Enter your last name: ")   # Taking input of last name
@@ -35,7 +35,13 @@ First name was:  amod
 Last name was:  kumar
 Reversed name is: kumar amod
   
+  
+Solution 2 using 2 for loops for every basic iteration and reversing each character of each name --> example amod kumar --> ramuk doma
 
-Solution code 2 using only 2 for loops:
+Expected output:
+first_name = amod
+last_name = kumar
+
+Output --> ramuk doma
 
 
