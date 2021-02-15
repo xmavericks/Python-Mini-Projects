@@ -26,3 +26,11 @@ for l in range(len(l_name_reverse)):
 print("First name was: ",first_name)
 print("Last name was: ",last_name)
 print("Reversed name is: "+last_name_reversed+" "+first_name_reversed)
+
+
+Output expected as above and after running the above code is:
+Enter your first name: amod
+Enter your last name: kumar
+First name was:  amod
+Last name was:  kumar
+Reversed name is: kumar amod
