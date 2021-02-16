@@ -7,3 +7,27 @@ Explanation --:
   cube of all the digits : 1*1*1 = 1, 5*5*5 = 125, 3*3*3 = 27
   sum of  cubes of all the digits = 1 + 125 + 27 = 153 == original number
 ----> This kind of numbers are said to be an Armstrong number
+
+
+Program to print all Armstrong numbers from 1 - 1000( or any specific range)
+
+specific_range = int(input("Enter a number till which you want to print all Armstrong number: "))
+
+def isArmstrong(num):
+    sum=0
+    a = num
+    
+    while num > 0:
+        digit = num % 10
+        sum = sum + pow(digit,3)
+        num = num // 10
+    if sum == a:
+        return True
+    else:
+        return False
+
+for x in range(1,specific_range):
+    if isArmstrong(x):
+        print("\n"+str(x))
+        
+Output are:
