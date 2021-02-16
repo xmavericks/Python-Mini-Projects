@@ -65,6 +65,16 @@ for num in range(1,rows+1):
     print("*",end = " ")
   print("")
 
+print("\n Pattern 6: \n")
+
+for num in range(1,rows+1):
+    for k in range(rows+1, num, -1):
+        print(" ", end=" ")
+    for i in range(rows+1):
+        print("*",end = " ")
+        
+    print("")
+
   
   
   
@@ -111,5 +121,12 @@ Pattern 5:
 * * * 
 * * 
 *
+
+Pattern 6:
+          * * * * * * 
+        * * * * * * 
+      * * * * * * 
+    * * * * * * 
+  * * * * * *
 
 # EOF Reached
