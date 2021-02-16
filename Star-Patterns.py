@@ -64,3 +64,50 @@ for num in range(1,rows+1):
   for k in range(rows+1, num, -1):
     print("*",end = " ")
   print("")
+
+  
+  
+  
+Output :
+
+Enter number of rows: 5
+
+Pattern 1: 
+
+        * 
+      * * 
+    * * * 
+  * * * * 
+* * * * * 
+
+Pattern 2: 
+
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+
+Pattern 3: 
+
+    * 
+   * * 
+  * * * 
+ * * * * 
+* * * * * 
+
+ Pattern 4: 
+
+********* 
+******* * 
+***** * * 
+*** * * * 
+* * * * * 
+
+ Pattern 5: 
+
+* * * * * 
+* * * * 
+* * * 
+* * 
+*
