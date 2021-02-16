@@ -31,3 +31,19 @@ for x in range(1,specific_range):
         print("\n"+str(x))
         
 Output are:
+
+Enter a number : 1000
+
+0
+
+1
+
+153
+
+370
+
+371
+
+407
+
+# EOF reached
