@@ -18,10 +18,16 @@ elif n == 1:
    print("Fibonacci sequence upto",n,":")
    print(n1)
 else:
-   print("Fibonacci sequence upto",n,":")
+   print(n,"Fibonacci sequence upto",":")
    while(count < n):
     print(n1, end=" ")
     nth = n1 + n2
     n1 = n2
     n2 = nth
     count +=1
+
+Output : 
+
+How many numbers you want to print? : 5
+5 numbers from the Fibonacci sequence are :
+0 1 1 2 3
