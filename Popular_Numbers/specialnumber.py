@@ -39,3 +39,6 @@ else:
     
     
 --------------------Output---------------------------
+
+Enter a number: 40585
+40585 is a Special number
