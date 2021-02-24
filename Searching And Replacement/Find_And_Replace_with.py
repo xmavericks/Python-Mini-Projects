@@ -28,7 +28,7 @@ print("Do you still want to change anything ? : ")
 boolean = input("Yes/No : ")
 prompt(boolean)
 
-# This function will look for word user want to change
+# This function will look exact position of the first occurence of replacing word in phrase
 def replacingWord(OldWord):
   ct = phrase.find(OldWord)
   return ct
@@ -37,3 +37,7 @@ def replacingWord(OldWord):
 def replaceWith(NewWord):
   ct = phrase.replace(OldWord, NewWord)
   return ct
+
+
+
+------------------------Output--------------------------
