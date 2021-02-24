@@ -22,7 +22,6 @@ def replaceWith(OldWord,NewWord):
 def prompt(boolean):
   if boolean == "YES" or boolean == "Yes" or boolean == "yes":
     OldWord = input("What would like to change in your earlier phrase? : ")
-    print("You want to replace this - ", OldWord)
     NewWord = input("Enter replacing word here : ")
     print("Your new phrase is : \n" ,replaceWith(OldWord, NewWord))    
   else:
@@ -37,11 +36,21 @@ prompt(boolean)
 ------------------------Output-------------------
 1 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
-tell me something about yourself? : hi there, my name is amod kumar
+tell me something about yourself? : hi there, my name is kumar
 Do you want to modify anything in your phrase? : 
  hi there, my name is amod kumar
 Yes/No : no
 Your phrase is looking good : 
- hi there, my name is amod kumar
+ hi there, my name is kumar
 
 2 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+tell me something about yourself? : Hi there, my name is kumar patwa
+Do you want to modify anything in your phrase? : 
+ Hi there, my name is kumar patwa
+Yes/No : YES
+What would like to change in your earlier phrase? : my name is
+You want to replace this -  my name is
+Enter replacing word here : I'm
+Your new phrase is : 
+ Hi there, my name is Ram Kumar patwa
