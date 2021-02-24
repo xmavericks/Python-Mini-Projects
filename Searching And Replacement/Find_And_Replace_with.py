@@ -39,5 +39,19 @@ def replaceWith(NewWord):
   return ct
 
 
+# print('What word you want to replace: ')
+# finArep = input()
+# print("Which word you want to insert at place of "+finArep+":")
+# replacingWord = input()
 
-------------------------Output-------------------------
+# def findWord(finArep):
+#     ct = st.find(finArep)
+#     return ct
+# def findAndReplace(finArep, replacingWord):
+#     ct = st.replace(finArep, replacingWord)
+#     return ct
+    
+# print(findAndReplace(finArep,replacingWord))
+# print(findWord(finArep))
+
+------------------------Output-------------------
