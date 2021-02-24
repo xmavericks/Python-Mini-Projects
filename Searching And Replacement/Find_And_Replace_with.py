@@ -45,12 +45,11 @@ Your phrase is looking good :
 
 2 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
-tell me something about yourself? : Hi there, my name is kumar patwa
+tell me something about yourself? : Hi there, I am a software engineer with more than 1 year of experience
 Do you want to modify anything in your phrase? : 
- Hi there, my name is kumar patwa
-Yes/No : YES
-What would like to change in your earlier phrase? : my name is
-You want to replace this -  my name is
-Enter replacing word here : I'm
+ Hi there, I am a software engineer with more than 1 year of experience
+Yes/No : Yes
+What would like to change in your earlier phrase? : 1
+Enter replacing word here : 1.5
 Your new phrase is : 
- Hi there, my name is Ram Kumar patwa
+ Hi there, I am a software engineer with more than 1.5 year of experience
