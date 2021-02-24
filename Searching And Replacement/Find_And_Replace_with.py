@@ -36,12 +36,12 @@ prompt(boolean)
 ------------------------Output-------------------
 1 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
-tell me something about yourself? : hi there, my name is kumar
+tell me something about yourself? : Hi there, I am a software engineer with more than 1 year of experience
 Do you want to modify anything in your phrase? : 
- hi there, my name is amod kumar
-Yes/No : no
+ Hi there, I am a software engineer with more than 1 year of experience
+Yes/No : No
 Your phrase is looking good : 
- hi there, my name is kumar
+ Hi there, I am a software engineer with more than 1 year of experience
 
 2 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
