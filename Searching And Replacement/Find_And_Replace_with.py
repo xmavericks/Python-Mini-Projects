@@ -17,8 +17,11 @@ boolean = input("Yes/No : ")
 
 
 # This function will look for word user want to change
-def replacingWord(change):
-  ct = phrase.find(change)
+def replacingWord(OldWord):
+  ct = phrase.find(OldWord)
   return ct
 
 # This funtion will allow users to change their previous word with new word orwords
+def replaceWith(NewWord):
+  ct = phrase.replace(OldWord, NewWord)
+  return ct
