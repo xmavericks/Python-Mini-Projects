@@ -65,3 +65,17 @@ for i in range(0,len(l),1):
     print(" ")
 
 
+---------------------- Output : Python3 ---------------------------
+G  
+G E  
+G E E  
+G E E K  
+G E E K S  
+G E E K S F  
+G E E K S F O  
+G E E K S F O R  
+G E E K S F O R G  
+G E E K S F O R G E  
+G E E K S F O R G E E  
+G E E K S F O R G E E K  
+G E E K S F O R G E E K S
