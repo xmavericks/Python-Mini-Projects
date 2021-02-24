@@ -8,35 +8,31 @@ say, we want to replace name Amod with new name - Mahesh and the entire phrase w
 
 
 ------------------------Program--------------------------
-# First line take the input for the original Phrase
-phrase = input("Please input some paragraph as your initial phrase, say for example you can tell me something about yourself? : ")
-print("Do you want to modify anything in your phrase? : \n",phrase)
-boolean = input("Yes/No : ")  # This boolean will ask if he wants to modify anything
-prompt(boolean)
-# Conditional Statement added here to ask users if they want to change anything
-def prompt(boolean):
-  if boolean == "YES" or "Yes" or "yes":
-    OldWord = input("What would like to change in your earlier phrase? : ")
-    print("You want to replace this - ", OldWord)
-    NewWord = input("Enter replacing word here : ")
-    print("Your new phrase is : \n" ,replace(OldWord, NewWord))    
-  elif boolean == "NO" or "No" or "no":
-    print("Your phrase is looking good : \n", phrase)
-
-
-print("Do you still want to change anything ? : ")
-boolean = input("Yes/No : ")
-prompt(boolean)
-
 # This function will look exact position of the first occurence of replacing word in phrase
 def replacingWord(OldWord):
   ct = phrase.find(OldWord)
   return ct
 
 # This funtion will allow users to change their previous word with new word orwords
-def replaceWith(NewWord):
+def replaceWith(OldWord,NewWord):
   ct = phrase.replace(OldWord, NewWord)
   return ct
+  
+# Asking user for any modifications
+def prompt(boolean):
+  if boolean == "YES" or boolean == "Yes" or boolean == "yes":
+    OldWord = input("What would like to change in your earlier phrase? : ")
+    print("You want to replace this - ", OldWord)
+    NewWord = input("Enter replacing word here : ")
+    print("Your new phrase is : \n" ,replaceWith(OldWord, NewWord))    
+  else:
+    print("Your phrase is looking good : \n", phrase)
+# This line take the input for the original Phrase
+phrase = input("tell me something about yourself? : ")
+print("Do you want to modify anything in your phrase? : \n",phrase)
+boolean = input("Yes/No : ")  # This boolean will ask if he wants to modify anything
+
+prompt(boolean)
 
 
 # print('What word you want to replace: ')
