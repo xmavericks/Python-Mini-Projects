@@ -9,9 +9,9 @@ say, we want to replace name Amod with new name - Mahesh and the entire phrase w
 
 ------------------------Program--------------------------
 # This function will look exact position of the first occurence of replacing word in phrase
-def replacingWord(OldWord):
-  ct = phrase.find(OldWord)
-  return ct
+# def replacingWord(OldWord):
+#   ct = phrase.find(OldWord)
+#   return ct
 
 # This funtion will allow users to change their previous word with new word orwords
 def replaceWith(OldWord,NewWord):
@@ -34,20 +34,14 @@ boolean = input("Yes/No : ")  # This boolean will ask if he wants to modify anyt
 
 prompt(boolean)
 
-
-# print('What word you want to replace: ')
-# finArep = input()
-# print("Which word you want to insert at place of "+finArep+":")
-# replacingWord = input()
-
-# def findWord(finArep):
-#     ct = st.find(finArep)
-#     return ct
-# def findAndReplace(finArep, replacingWord):
-#     ct = st.replace(finArep, replacingWord)
-#     return ct
-    
-# print(findAndReplace(finArep,replacingWord))
-# print(findWord(finArep))
-
 ------------------------Output-------------------
+1 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+tell me something about yourself? : hi there, my name is amod kumar
+Do you want to modify anything in your phrase? : 
+ hi there, my name is amod kumar
+Yes/No : no
+Your phrase is looking good : 
+ hi there, my name is amod kumar
+
+2 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
