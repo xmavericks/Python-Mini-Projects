@@ -36,3 +36,13 @@ searchingChar = input()
 count = countOccurence(searchingChar, originalString)
 # Printing the output
 print(frequency(count, len(originalString)))
+
+
+------------------------- Output ---------------------------
+Input
+this is some text # Original String
+s                 # Searching character
+Your Output       # My Output
+17
+Expected Output
+17
