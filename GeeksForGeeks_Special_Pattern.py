@@ -53,3 +53,15 @@ G E E K S F O R G E
 G E E K S F O R G E E 
 G E E K S F O R G E E K 
 G E E K S F O R G E E K S
+
+----------------------- Program : Python3 -------------------------
+
+l = [x for x in 'GEEKSFORGEEKS']
+print(l)
+
+for i in range(0,len(l),1):
+    for j in range(1,i+2):
+        print(l[j-1], end=" ")
+    print(" ")
+
+-
