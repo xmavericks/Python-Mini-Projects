@@ -16,6 +16,9 @@ print("Is this phrase correct according to you? : \n",phrase)
 boolean = input("Yes/No : ")
 
 
+# This function will look for word user want to change
 def replacingWord(change):
   ct = phrase.find(change)
   return ct
+
+# This funtion will allow users to change their previous word with new word orwords
