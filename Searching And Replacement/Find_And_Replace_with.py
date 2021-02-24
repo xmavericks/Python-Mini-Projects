@@ -10,3 +10,12 @@ say, we want to replace name Amod with new name - Mahesh and the entire phrase w
 ------------------------Program--------------------------
 # First line take the input for the original Phrase
 phrase = input("Please input some paragraph as your initial phrase, say for example you can tell me something about yourself? : ")
+print("Is this phrase correct according to you? : \n",phrase)
+
+# This boolean will ask if he wants to modify anything
+boolean = input("Yes/No : ")
+
+
+def replacingWord(change):
+  ct = phrase.find(change)
+  return ct
