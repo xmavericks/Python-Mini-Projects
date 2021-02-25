@@ -45,3 +45,12 @@ Your Output
 5.0
 Expected Output
 5.0
+
+Test Case II:
+
+Input
+I am learning data structures on SoloLearn and its great
+Your Output
+4.7
+Expected Output
+4.7
