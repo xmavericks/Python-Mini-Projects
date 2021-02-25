@@ -32,9 +32,13 @@ Key Value should comparise:
 You can use strings, integers, booleans, and any other immutable type as dictionary keys.
 This means that you cannot use lists or dictionaries as keys:
 
-Example code:
+------------------------------------Example code:
 bad_dict = {
     [1, 2, 3]: "one two three", 
 }
 
-Output Error:
+------------------------------------Output Error:
+Traceback (most recent call last):
+File "file0.py", line 1, in <module>
+bad_dict = {
+TypeError: unhashable type: 'list'
