@@ -9,7 +9,11 @@ Dictionaries can be indexed in the same way as lists, using square brackets cont
 Example:-
 
 def main():
-    ages = {"Maya": 27, "Mahi": 26, "Ashu": 25}
+    ages = {
+        "Maya": 27, 
+        "Mahi": 26, 
+        "Ashu": 25
+    }
     print("Ashu's age is : ",ages["Ashu"])
     print("Mahi's age is : ",ages["Mahi"])
     
