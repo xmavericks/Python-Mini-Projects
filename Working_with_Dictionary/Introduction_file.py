@@ -33,3 +33,8 @@ You can use strings, integers, booleans, and any other immutable type as diction
 This means that you cannot use lists or dictionaries as keys:
 
 Example code:
+bad_dict = {
+    [1, 2, 3]: "one two three", 
+}
+
+Output Error:
