@@ -11,3 +11,29 @@ Sample Output:
 3.5
 
 Explanation: There are 4 words in the given input, with a total of 14 letters, so the average length will be: 14/4 = 3.5
+
+    
+--------------------Program : Python -------------------------------------
+  
+def main():
+    text = input()
+    def countWords(text):
+        count = len(text.split())
+        return count
+
+    def sumOfLengthofWord(text):
+        sum = 0
+        l = text.split()
+        string = [x for x in l]
+        
+        for i in string:
+            sum = sum + len(i)
+        
+        return sum
+
+    print(sumOfLengthofWord(text)/countWords(text))
+
+if __name__ == "__main__":
+    main();
+    
+    
