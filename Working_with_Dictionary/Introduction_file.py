@@ -26,3 +26,10 @@ Mahi's age is : 26
 
 
 Important NOTE : Each element in a dictionary is represented by a key:value pair.
+
+Key Value should comparise:
+
+You can use strings, integers, booleans, and any other immutable type as dictionary keys.
+This means that you cannot use lists or dictionaries as keys:
+
+Example code:
