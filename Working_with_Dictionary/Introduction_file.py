@@ -42,3 +42,16 @@ Traceback (most recent call last):
 File "file0.py", line 1, in <module>
 bad_dict = {
 TypeError: unhashable type: 'list'
+
+
+def main():
+    try:
+        bad_dict = {
+            [1, 2, 3]: "one two three", 
+        }
+    except:
+        print("Key value should comparise list as keys")
+        print("Type Error: unhashable type: \'list'")
+
+if __name__ == "__main__":
+    main();
