@@ -43,6 +43,7 @@ File "file0.py", line 1, in <module>
 bad_dict = {
 TypeError: unhashable type: 'list'
 
+:::::::::::::::::::Example 2:------------------------------------
 
 def main():
     try:
@@ -55,3 +56,7 @@ def main():
 
 if __name__ == "__main__":
     main();
+
+::::::::::::::::::: Output ::::::::::::::
+Key value should comparise list as keys
+Type Error: unhashable type: 'list'
