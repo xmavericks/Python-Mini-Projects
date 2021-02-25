@@ -45,7 +45,9 @@ Your Output
 5.0
 Expected Output
 5.0
-
+------------------------------------------------------
+Expected output in both cases match the exact output
+------------------------------------------------------
 Test Case II:
 
 Input
