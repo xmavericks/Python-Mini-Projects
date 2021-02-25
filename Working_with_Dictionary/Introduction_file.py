@@ -19,3 +19,6 @@ if __name__ == "__main__":
 -------Output:::::::::::
 Ashu's age is : 25
 Mahi's age is : 26
+
+
+Important NOTE : Each element in a dictionary is represented by a key:value pair.
