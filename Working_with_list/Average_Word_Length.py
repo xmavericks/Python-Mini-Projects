@@ -37,3 +37,10 @@ if __name__ == "__main__":
     main();
     
     
+-------------------------Output: -----------------------------
+    
+coding is awesome
+Your Output
+5.0
+Expected Output
+5.0
