@@ -16,4 +16,6 @@ def main():
 if __name__ == "__main__":
     main();
 
-
+-------Output:::::::::::
+Ashu's age is : 25
+Mahi's age is : 26
