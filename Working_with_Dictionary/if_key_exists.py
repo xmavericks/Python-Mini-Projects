@@ -42,3 +42,10 @@ def main():
 
 if __name__ == "__main__":
   main();
+
+
+Output:
+
+[2, 3, 4]
+42
+not found
