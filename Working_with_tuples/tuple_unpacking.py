@@ -23,10 +23,10 @@ A variable that is prefaced with an asterisk (*) takes all values from the colle
 Example : 
 
 a, b, *c, d = (1, 2, 3, 4, 5, 6, 7, 8, 9) or [1, 2, 3, 4, 5, 6, 7, 8, 9]  -- we can initiate using either square bracket or parenthesis
-print(a)
-print(b)
-print(c)
-print(d)
+print("a is : ",a)
+print("b is : ",b)
+print("*c Holds all values till last item : ",c)
+print("d is : ",d)
 
 ___ Output ___
 a is :  1
