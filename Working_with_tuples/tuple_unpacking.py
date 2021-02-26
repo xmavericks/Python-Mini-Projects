@@ -10,3 +10,8 @@ a,b,c,d = numbers
 print("a is : ",a, "\nb is : ",b, "\nc is : ", c, "\nd is : ", d)
 
 Output:
+
+a is :  1 
+b is :  2 
+c is :  3 
+d is :  4
