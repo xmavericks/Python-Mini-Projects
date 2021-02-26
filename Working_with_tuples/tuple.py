@@ -32,3 +32,20 @@ print(words[1])
 
 --- Output---
 ('maggi', 'masala')
+
+
+
+Advantage of tuple over List:
+~ An advantage of tuples over lists is that they can be used as keys for dictionaries (because they are immutable)
+~ Tuples are faster than lists, but they cannot be changed.
+
+Example :
+dict = {
+    ("David", 42): "red",
+    ("Bob", 24): "green"
+}
+
+print(dict[("Bob", 24)])
+
+---- Output ----
+green
