@@ -51,3 +51,11 @@ print("Total number of elements in *e are : ",len(e))
 
 ___ Output ___
 
+a is :  0
+b is :  1
+c is :  2
+d is :  3
+*e Holds all values till last item :  [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+f is :  18
+g is :  19
+Total number of elements in *e are :  14
