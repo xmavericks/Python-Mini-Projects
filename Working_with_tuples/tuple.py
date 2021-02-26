@@ -23,3 +23,12 @@ Traceback (most recent call last):
   File "main.py", line 2, in <module>
     words[0] = "maggi"
 TypeError: 'tuple' object does not support item assignment
+
+
+Note - Like lists and dictionaries, tuples can be nested within each other
+Example:
+words = ("spam",("maggi","masala"))
+print(words[1])
+
+--- Output---
+('maggi', 'masala')
