@@ -33,3 +33,21 @@ a is :  1
 b is :  2
 *c Holds all values till last item :  [3, 4, 5, 6, 7, 8]
 d is :  9
+
+
+Another Example :
+
+a, b, c, d, *e, f, g = range(20)
+
+print("a is : ",a)
+print("b is : ",b)
+print("c is : ",c)
+print("d is : ",d)
+print("*e Holds all values till last item : ",e)
+print("f is : ",f)
+print("g is : ",g)
+
+print("Total number of elements in *e are : ",len(e))
+
+___ Output ___
+
