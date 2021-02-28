@@ -20,5 +20,24 @@ def main():
 	team(n)
 if __name__ == "__main__":
 	main();
+
+------- Output --------
   
-  
+Test: #1, time: 92 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+8
+Output
+YES
+Answer
+YES
+Checker Log
+ok answer is YES
+Test: #2, time: 92 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
+Input
+5
+Output
+NO
+Answer
+NO
+Checker Log
+ok answer is NO
