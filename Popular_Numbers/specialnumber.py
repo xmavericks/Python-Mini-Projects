@@ -10,7 +10,7 @@ number = int(input("Enter a number: "))
 def specialnumber(number):
     copy_of_number = number
     sumOfDigits = 0
-    # Sum of factorial of digits
+    # This function will be accountable for finding the sum of factorial of each digit of a number
     while (copy_of_number != 0):
        #Get the rightmost digit 
         currentDigit = copy_of_number % 10
