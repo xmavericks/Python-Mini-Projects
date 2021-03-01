@@ -3,7 +3,6 @@ Example - 145 is a special number
 Why?
 1! + 4! + 5! = 1 + 24 + 120 == 145 = Original number
 
-
 --------------------Program---------------------------
 
 number = int(input("Enter a number: "))
@@ -37,7 +36,7 @@ if (result == True):
 else:
     print(str(number) + " is NOT a Special number")
     
-    
+  
 --------------------Output---------------------------
 
 Enter a number: 40585
