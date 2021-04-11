@@ -12,7 +12,6 @@ def checkPalindrome(n):
         print(n,": is not a Palindrome")
 checkPalindrome(n)
 
-
 --------------------Output------------------------
 
 1_________________________________________________________________________
