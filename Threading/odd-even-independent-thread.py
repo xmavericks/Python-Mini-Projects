@@ -7,7 +7,7 @@ Program:
 import threading
 import time
 
-num = int(input())
+num = int(input())  # input passed 20, for printing 1-20 using
 ls = []
 
 def odd(num):
