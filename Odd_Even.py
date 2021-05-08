@@ -5,5 +5,4 @@ def check_even_odd(n):
     return "Even"
   else:
     return "Odd"
-
 print(check_even_odd(n))
