@@ -65,7 +65,6 @@ def cover_letter():
     # else:
     #     cover_dict["github_username"] = [github_username]
     
-    
     # Printing output
     print("Dear Hiring Person,\n")
     print("Thank you so much for making this opportunity available on"+site+"\n")
