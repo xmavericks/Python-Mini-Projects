@@ -18,7 +18,6 @@ def main():
 				print("Element is found at: ", mid)
 		else:
 			print("Element is not present in the given array: ", arr)
-
 	search(arr,low, high,8)
 
 if __name__ == "__main__":
