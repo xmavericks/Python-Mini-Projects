@@ -1,4 +1,4 @@
-words = input("Enter any sentence want : ")
+words = input("Enter any sentence you want : ")
 count = 1
 for w in words:
   if w == " ":
