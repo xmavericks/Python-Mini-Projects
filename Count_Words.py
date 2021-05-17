@@ -5,7 +5,6 @@ for w in words:
     count += 1
 print("Total number of words entered by you are: "+str(count))
 
-
 Output - 
 Enter any sentence want: leetcode is awesome # Entered this sentence
 Total number of words entered by you are: 3
