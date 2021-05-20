@@ -33,8 +33,7 @@ def gcd(a,b):
     if (a > b):
         return gcd(a-b, b)
     return gcd(a, b-a)
- 
-# Driver program to test above function
+
 a = int(input())
 b = int(input())
 if(gcd(a, b)):
