@@ -8,7 +8,6 @@ Explanation --:
   sum of  cubes of all the digits = 1 + 125 + 27 = 153 == original number
 ----> This kind of numbers are said to be an Armstrong number
 
-
 Program to print all Armstrong numbers from 1 - 1000( or any specific range)
 
 specific_range = int(input("Enter a number till which you want to print all Armstrong number: "))
