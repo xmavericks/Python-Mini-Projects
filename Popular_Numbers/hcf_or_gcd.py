@@ -1,7 +1,7 @@
 # This file contains the method to calculate GCD/HCF of two numbers
 
 Method 1: Using recursive approach 1
- 
+#using the library function
 from fractions import gcd
 def main():
   a , b = int(input()), int(input())
@@ -13,10 +13,9 @@ def main():
 
 if __name__ == "__main__":
 	main();
-  
+
   
 Method 2: Using recursive approach 2
-
 # Recursive function to return gcd of a and b
 def gcd(a,b):
      
