@@ -11,7 +11,6 @@ Sample Output:
 
 Explanation: There are 4 words in the given input, with a total of 14 letters, so the average length will be: 14/4 = 3.5
 
-    
 --------------------Program : Python -------------------------------------
   
 def main():
@@ -34,8 +33,7 @@ def main():
 
 if __name__ == "__main__":
     main();
-    
-    
+      
 -------------------------Output: -----------------------------
 Test Case I:
 
