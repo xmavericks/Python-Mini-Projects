@@ -64,7 +64,6 @@ for i in range(0,len(l),1):
         print(l[j-1], end=" ")
     print(" ")
 
-
 ---------------------- Output : Python3 ---------------------------
 G  
 G E  
