@@ -17,7 +17,6 @@ site = input("\nEnter site name where you found this job opening opening: ")
 software_role = input("\nEnter software role, eg - Software Developer, SDET etc: ")
 
 #cover_dict = {}
-
 def cover_letter():
     #inserting name
     # if "Name" in cover_dict:
