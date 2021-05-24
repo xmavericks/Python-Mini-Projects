@@ -1,5 +1,4 @@
 # Tuple Unpaccking
-
 Tuple Unpacking ~
 Tuple unpacking allows you to assign each item in a collection to a variable.
 
