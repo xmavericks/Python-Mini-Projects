@@ -1,5 +1,4 @@
 # Definition File
-
 Tuples~
 
 Tuples are very similar to lists, except that they are immutable (they cannot be changed).
