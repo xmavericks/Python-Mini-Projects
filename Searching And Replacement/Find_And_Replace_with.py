@@ -4,7 +4,6 @@ Example -
 phrase - '''Hi my name is Amod Kumar, I came from Software Engineering Background. I always wanted to be a Scientist but end up becoming an Engineer'''
 say, we want to replace name Amod with new name - Mahesh and the entire phrase will be changed for Amod Kumar to for Mahesh Kumar.
 
-
 ------------------------Program--------------------------
 # This function will look exact position of the first occurence of replacing word in phrase
 # def replacingWord(OldWord):
