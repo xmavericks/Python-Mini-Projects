@@ -11,7 +11,6 @@ Sample Output:
 4
 
 ------------------------------Program---------------------------------------
-
 #your code goes here
 
 st = input()
