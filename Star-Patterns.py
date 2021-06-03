@@ -92,7 +92,6 @@ for num in range(1,rows+1):
   
   
 Output :
-
 Enter number of rows: 5
 
 Pattern 1: 
