@@ -1,5 +1,5 @@
 Dictionaries
-To determine whether a key is in a dictionary, you can use in and not in, just as you can for a list.
+To determine whether a key is in a dictionary is present or not?
 
 Example:
 
