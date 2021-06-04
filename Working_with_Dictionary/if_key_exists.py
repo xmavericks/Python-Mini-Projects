@@ -22,7 +22,6 @@ True
 False
 True
 
-
 Dictionaries
 
 A useful dictionary function is get(). It does the same thing as indexing, but if the key is not found in the dictionary it returns another specified value instead.
@@ -42,7 +41,6 @@ def main():
 
 if __name__ == "__main__":
   main();
-
 
 Output:
 
