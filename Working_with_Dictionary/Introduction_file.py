@@ -1,5 +1,4 @@
-Dictionaries
-
+Dictionaries:
 We saw how lists allow to store elements with their corresponding indices.
 The indices in a list are automatically set. But what if we need to set our own index?
 
