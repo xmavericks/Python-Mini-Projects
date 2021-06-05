@@ -7,7 +7,6 @@ side_square = int(input("Enter side value of square: "))
 side1_rec, side2_rec = int(input("Enter first side value of reactangle: ")), int(input("Enter second side value of reactangle: "))
 
 print("\n")
-
 print("Radius of circle is: "+str(radius), end = "\n")
 print("Side of square is: "+str(side_square), end = "\n")
 print("Both sides of rectangle are: "+str(side1_rec)+" and "+ str(side2_rec),end = "\n")
