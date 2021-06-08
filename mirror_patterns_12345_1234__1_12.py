@@ -5,7 +5,7 @@ Mirror Patter:
 1 2 3 
 1 2 
 1 
-0           # extra statement is added, as print(0). You can add anything here
+0           # extra line print(0) is added.
 1           # For this pattern below, which is exact opposite of above. Code responsible for printing this is from line 24 - line 27
 1 2 
 1 2 3 
