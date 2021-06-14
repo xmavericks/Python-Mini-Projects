@@ -36,7 +36,7 @@ Enter limit upto which you want to print numbers: 20
 
 
 Some of you might think, that this can be achieved only using 3 lines of code. I agree, but please read the very first line again and then saw 3 liner slotution below:
- 
+
 n = int(input("Enter limit to which you want to print numbers: "))
 
 for i in range(1,n+1):
