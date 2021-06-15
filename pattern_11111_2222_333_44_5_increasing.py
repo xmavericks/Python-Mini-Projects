@@ -16,4 +16,5 @@ for num in range(1,rows+1):
     print(num,end = " ") # Printing number, since we want it in increasing order, and num initially inside this loop has value 1, and then num ++ applied at each iteration
   print("")
 
- #EOF Reached
+
+#EOF Reached
