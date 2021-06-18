@@ -34,7 +34,7 @@ for num in range(1,rows+1):                                             for num 
     print(i, end = " ")               <---- Difference ---->                print(num, end = " ")
   print("")                                                               print("")
         
- 
+
 Note : number of rows taken as input was - 5
 
 Output Program 1 - Left hand side -----> Printed star (*) in place of spaces for clear visualisation
