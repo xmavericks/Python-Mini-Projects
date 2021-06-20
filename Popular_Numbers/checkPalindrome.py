@@ -1,6 +1,5 @@
 # Any number is said to be a Palindrome, if and only if all the digits are same from both ends. 
 Example - 121 == 121, 123 != 321
-
 ---------------------------Program 1 : Taking input as a String-------------------------------
 
 number = int(input("Enter number to check if it is a palindrome or not: "))
