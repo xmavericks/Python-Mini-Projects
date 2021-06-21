@@ -1,7 +1,6 @@
 # Write a Python program which accepts multiple integer for calculating area of some geometrical shapes like Circle, Square, rectangle etc.
-
 Program code :
-  
+
 radius = int(input("Enter radius: "))
 side_square = int(input("Enter side value of square: "))
 side1_rec, side2_rec = int(input("Enter first side value of reactangle: ")), int(input("Enter second side value of reactangle: "))
