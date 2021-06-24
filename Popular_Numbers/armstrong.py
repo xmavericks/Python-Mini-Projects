@@ -1,4 +1,4 @@
-# This program will tell you the exact logic behind printing all the Armstrong numbers till a range
+# This program will tell you the exact logic behind printing all the Armstrong numbers till a range 
 Which number is exactly said to be an Armstrong number?
 ---> A number say for example 153 is said to be an Armstrong number only if sum of cube of all the digit is exactly equal to that number
 Explanation --:
