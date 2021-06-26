@@ -14,7 +14,7 @@ say, we want to replace name Amod with new name - Mahesh and the entire phrase w
 def replaceWith(OldWord,NewWord):
   ct = phrase.replace(OldWord, NewWord)
   return ct
-  
+
 # Asking user for any modifications
 def prompt(boolean):
   if boolean == "YES" or boolean == "Yes" or boolean == "yes":
