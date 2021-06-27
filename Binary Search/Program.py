@@ -4,7 +4,7 @@ def main():
 	n = len(arr)-1
 	low, high = 0, n
 	print(arr)
-
+ 
 	def search(arr, low, high, x):
 		if low <= high:
 			mid = low + (high-low) // 2
