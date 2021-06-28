@@ -16,7 +16,7 @@ def checkPalindrome(number):
         print("Not a palindrome!")
 checkPalindrome(number)
 
----------------------------Program 2 : Taking input as a String--------------------------------
+--------------------------Program 2 : Taking input as a String--------------------------------
     
 n, result, comparator= input("Enter number to check if it is a palindrome or not: "),[], []
 result.append(n[::-1])
