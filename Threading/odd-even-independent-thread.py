@@ -33,7 +33,6 @@ y.join()
 for k in range(len(ls)):
     print(ls[k], end = " ")
 
-
 Output :
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 Explantion - 1,3,5,7 and so on... printed using first thread
