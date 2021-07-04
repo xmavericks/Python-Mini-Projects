@@ -39,7 +39,6 @@ if afd < today:
 time_to_afd = afd - today
 print ("It's just", time_to_afd.days, "days until next April Fools' Day!")
 
-
 ------------------------------output-------------------------------------------
 
 365 days, 5:01:00
