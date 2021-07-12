@@ -2,7 +2,7 @@
 Below code is written for printing odd and even number independently using two different threads
 
 Program:
-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
 import threading
 import time
 
