@@ -1,5 +1,4 @@
 ------------------- Program --------------------
-
 def main():
     # list
     list = ["one", "two"]
