@@ -1,4 +1,4 @@
-Don't get confused, from the previous pattern
+Don't get confused from the previous pattern !
 
 Previous Pattern was :
         1
