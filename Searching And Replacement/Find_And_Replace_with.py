@@ -30,7 +30,7 @@ boolean = input("Yes/No : ")  # This boolean will ask if he wants to modify anyt
 
 prompt(boolean)
 
-------------------------Output-------------------
+-----------------------Output-------------------
 1 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
 tell me something about yourself? : Hi there, I am a software engineer with more than 1 year of experience
