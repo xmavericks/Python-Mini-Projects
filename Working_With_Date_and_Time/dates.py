@@ -27,12 +27,10 @@ def main():
   # Get the current time
   t = datetime.time(datetime.now())
   print ("The current time is ", t)
-  
-  
+    
 if __name__ == "__main__":
   main();
   
-
 ----------------------Output: ---------------------------------
 
 Today's date is  2021-02-25
