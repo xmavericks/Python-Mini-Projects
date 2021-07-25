@@ -1,6 +1,6 @@
 # What is Fibonacci sequence?
 # Def - The Fibonacci sequence is a series of numbers
-# where a number is the addition of the last two numbers, starting with 0, and 1. The Fibonacci Sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55…
+# where a number is the addition of the last two numbers, starting with 0, and 1. The Fibonacci Sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55
 
 How can we print this series using Python?
 
