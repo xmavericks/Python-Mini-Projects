@@ -1,6 +1,4 @@
-#
 # Example file for formatting time and date output
-#
 
 from datetime import datetime
 
