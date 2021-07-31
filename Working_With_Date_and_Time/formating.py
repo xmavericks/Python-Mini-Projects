@@ -28,7 +28,6 @@ def main():
 if __name__ == "__main__":
   main();
 
-
 -------------------Output -------------------------
 
 The current year is: 2021
