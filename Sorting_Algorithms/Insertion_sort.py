@@ -1,4 +1,4 @@
-# This file will be updated soon
+# Below program is for Insertion Sort
 def insertion_sort(InputList):
 	for i in range(1, len(InputList)):
 		j = i-1
