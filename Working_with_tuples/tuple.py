@@ -11,7 +11,6 @@ You can access the values in the tuple with their index, just as you did with li
  
 print(words[0]) // gives output as :: spam
 
-
 Re-assigning value:
 
 Trying to reassign a value in a tuple causes an error.
