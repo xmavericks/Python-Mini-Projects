@@ -1,4 +1,4 @@
-# We are about to print pattern like this below
+# We are about to print pattern like this below:
 
 G  
 G e  
