@@ -27,7 +27,7 @@ Enter your last name: kumar
 First name was:  amod
 Last name was:  kumar
 Reversed name is: kumar amod
-  
+ 
   
 Solution 2 using 2 for loops for --> example amod kumar --> ramuk doma
 
