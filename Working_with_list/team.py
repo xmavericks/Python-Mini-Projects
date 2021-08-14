@@ -22,7 +22,6 @@ if __name__ == "__main__":
 	main();
 
 ------- Output --------
-  
 Test: #1, time: 92 ms., memory: 0 KB, exit code: 0, checker exit code: 0, verdict: OK
 Input
 8
