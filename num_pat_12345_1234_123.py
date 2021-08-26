@@ -15,5 +15,4 @@ for num in range(1,rows+1):
     print(rows-k+2,end = " ") # This line is the reason why, number has been started gettin printed from 1
   print("")
 
-  #EOF Reached
-  
+#EOF Reached
